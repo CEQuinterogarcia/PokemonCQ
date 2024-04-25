@@ -1,0 +1,40 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:250px;
+    width: 250px;
+    background-color:rgba(0, 255, 255, 0.655);
+    border: 2px solid rgb(255, 6, 6);
+    border-radius: 10px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translatez(8);
+    transition: transform 0.255 ease-out;
+    font-size: 12px;
+    }
+    
+    .card-container:hover {
+    transform: scale(1.05);
+    }
+    
+    .image
+    {
+       
+       height:130px;
+       border-radius: 3px;
+       
+    }
+    .titcard{
+        font-size: 28px;
+        color: #ff0101;
+    }
+    h2
+    {
+        font-size:15px;
+        line-height:20%;
+        color: rgb(255, 255, 255);
+        display: block;
+    }

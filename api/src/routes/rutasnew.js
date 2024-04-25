@@ -6,13 +6,13 @@ const { getpokemonbynamehandler } = require('../handlers/getPokemonByNamehandler
 const { getpokemontypehandler } = require('../handlers/getPokemonTypehandler');
 const { postpokemondbhandler } = require('../handlers/postPokemonDBhandler');
 const { getpokemontype } = require('../controllers/getPokemonType');
-const routernew = require('./rutasnew');
+
+const routernew = Router();
+
+routernew.get("/", getpokemonshandler)
+routernew.get("/:id", getpokemonbyidhandler)
+routernew.post("/", postpokemondbhandler)
 
 
-const router = Router();
 
-router.get("/types", getpokemontypehandler)
-
-router.use("/pokemon/", routernew)
-
-module.exports = router;
+module.exports = routernew;

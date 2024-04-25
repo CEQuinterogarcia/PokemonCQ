@@ -1,0 +1,72 @@
+.search-game{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 150px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    display: block;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.container {
+    display:inline-flex;
+    align-items: center;;
+    justify-content: center;
+    background-color: #282c3400;
+    padding: 10px;
+   
+  }
+  .menu {
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    background-color: #282c340a;
+    padding: 10px;
+    border-radius: 10px;
+    align-content: center;
+   
+  }
+  
+  button {
+    background-color: #ed1379;
+    color: white;
+    border-radius: 5px;
+    border: 5px;
+    border-color: rgb(255, 2, 221);
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  select {
+    background-color: #ed1379;
+    color: white;
+    border-radius: 5px;
+    border: 5px;
+    border-color: rgb(255, 2, 221);
+    padding: 10px;
+    cursor: pointer;
+  }
+  label {
+    background-color: #ffffff;
+    color:  #ed1379;
+    border-radius: 5px;
+    border: 2px;
+    border-color: rgb(255, 2, 221);
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold
+  }
+  
+  button:hover {
+    background-color: #4fa3d1;
+    border-color: red;
+  }
+ 
+  button:focus {
+    outline: none;
+  }
+  input{
+    height: 35px;
+  }
